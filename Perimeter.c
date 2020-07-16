@@ -3,8 +3,8 @@
 int width;  //Global Variable       
 int height; //Global Variable        
 
-int area;           
-int perimeter;      
+int area;   //Global Variable       
+int perimeter; //Global Variable     
 
 int main() 
 {
@@ -14,7 +14,7 @@ int main()
     perimeter = 2*(height + width); //Formula
 	  printf("Perimeter of the rectangle = %d inches\n", perimeter);
 	
-	  area = height * width;
+	  area = height * width; //Formula
 	  printf("Area of the rectangle = %d square inches\n", area);
 
 return 0;
